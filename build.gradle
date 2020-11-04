@@ -12,7 +12,7 @@ repositories {
 }
 
 micronaut {
-    runtime "undertow"
+    runtime "netty"
     testRuntime "junit5"
     processing {
         incremental true
