@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "gradle",
+    "goal": "clean assemble"
+  },
+  "deploy": {
+    "jarName": "./build/libs/micronautio-0.1-all.jar"
+  }
+}
